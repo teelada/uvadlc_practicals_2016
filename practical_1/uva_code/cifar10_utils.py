@@ -8,7 +8,7 @@ You don't need to change anything here.
 """
 
 # Default paths for downloading CIFAR10 data
-CIFAR10_FOLDER = 'cifar10/cifar-10-batches-py'
+CIFAR10_FOLDER = './cifar10/cifar-10-batches-py'
 
 def load_cifar10_batch(batch_filename):
   """ 
